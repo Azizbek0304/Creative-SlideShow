@@ -26,6 +26,18 @@ body {
   align-items: center;
 }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slides {
+    > button {
+      top: 10%;
+    }
+  }
+
+  .slideContent {
+    width: 60vw;
+    height: 50vw; 
+  }
+}
 // Breakpoint: Mobile (up to 768px)
 @media (max-width: 768px) {
   .slides {
@@ -42,8 +54,6 @@ body {
     height: 60vw;
   }
 }
-
-
 
 .slides {
   height: 100vh;
