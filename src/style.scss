@@ -43,31 +43,7 @@ body {
   }
 }
 
-// Breakpoint: Tablet (768px to 1024px)
-@media (min-width: 768px) and (max-width: 1024px) {
-  .slides {
-    // Adjust grid styles for tablet view
-  }
 
-  .slideContent {
-    width: 60vw; // Adjust slide content width for tablet view
-    height: 50vw; // Adjust slide content height for tablet view
-    // Other tablet-specific styles
-  }
-}
-
-// Breakpoint: Desktop (1024px and above)
-@media (min-width: 1024px) {
-  .slides {
-    // Adjust grid styles for desktop view
-  }
-
-  .slideContent {
-    width: 30vw; // Adjust slide content width for desktop view
-    height: 40vw; // Adjust slide content height for desktop view
-    // Other desktop-specific styles
-  }
-}
 
 .slides {
   height: 100vh;
