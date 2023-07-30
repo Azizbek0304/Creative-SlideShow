@@ -10,7 +10,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import Services from './pages/Services';
-import Testimonial from './pages/Testimonal';
+import Testimonial from './pages/Testimonial';
 import Navbar from './components/Navbar';
 import SlideShow from './components/3dSlide';
 
