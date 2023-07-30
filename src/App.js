@@ -12,13 +12,11 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Testimonial from './pages/Testimonial';
 import Navbar from './components/Navbar';
-import SlideShow from './components/3dSlide';
 
 const App = () => {
   return (
     <Router>
       <Navbar />
-      <SlideShow />
       <main>
         <Switch>
           <Route path="/" exact>
